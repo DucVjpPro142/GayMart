@@ -74,6 +74,13 @@ export default function Layout() {
                       <p className="font-bold text-[#1a3a4d] text-sm">{user.name}</p>
                       <p className="text-gray-500 text-xs font-body truncate">{user.email}</p>
                     </div>
+                    <Link 
+                      to="/profile"
+                      onClick={() => setShowUserMenu(false)}
+                      className="w-full flex items-center gap-3 px-4 py-3 text-[#1a3a4d] hover:bg-[#eef1f3] transition-colors text-sm font-bold border-b border-gray-200/50"
+                    >
+                      <User size={16} /> Hồ sơ của tôi
+                    </Link>
                     <button
                       onClick={handleLogout}
                       className="w-full flex items-center gap-3 px-4 py-3 text-red-500 hover:bg-red-50/50 transition-colors text-sm font-bold"
