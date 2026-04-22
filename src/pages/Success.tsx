@@ -61,7 +61,7 @@ export default function Success() {
               <Home size={18} /> Về trang chủ
             </Link>
             <Link 
-              to="/" 
+              to="/tracking" 
               className="glass-card bg-white/50 hover:bg-white text-[#1a3a4d] font-bold py-3 px-8 rounded-full transition-all shadow-sm border border-gray-200/50 flex items-center justify-center gap-2"
             >
               <FileText size={18} /> Theo dõi đơn hàng <ChevronRight size={16} />
