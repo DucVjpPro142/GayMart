@@ -7,6 +7,8 @@ import Cart from './pages/Cart';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Search from './pages/Search';
+import Success from './pages/Success';
+
 function App() {
   return (
     <BrowserRouter>
@@ -22,6 +24,7 @@ function App() {
           <Route path="product/:id" element={<ProductDetail />} />
           <Route path="cart" element={<Cart />} />
           <Route path="search" element={<Search />} />
+          <Route path="success" element={<Success />} />
         </Route>
       </Routes>
     </BrowserRouter>

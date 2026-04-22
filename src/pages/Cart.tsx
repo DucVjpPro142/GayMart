@@ -170,9 +170,9 @@ export default function Cart() {
                   <p className="text-xs text-right text-gray-400 font-body">(Đã bao gồm VAT nếu có)</p>
                 </div>
 
-                <button className="w-full bg-[#316e91] hover:bg-[#1a3a4d] text-white font-bold text-lg py-4 rounded-full transition-all shadow-[0_8px_20px_rgba(49,110,145,0.3)] hover:shadow-[0_12px_25px_rgba(49,110,145,0.4)] hover:-translate-y-1 mb-6 flex justify-center items-center gap-2">
+                <Link to="/success" className="w-full bg-[#316e91] hover:bg-[#1a3a4d] text-white font-bold text-lg py-4 rounded-full transition-all shadow-[0_8px_20px_rgba(49,110,145,0.3)] hover:shadow-[0_12px_25px_rgba(49,110,145,0.4)] hover:-translate-y-1 mb-6 flex justify-center items-center gap-2">
                   TIẾN HÀNH THANH TOÁN <ArrowRight size={20} />
-                </button>
+                </Link>
 
                 <div className="flex flex-col items-center text-center gap-4">
                   <div className="flex items-center gap-2 text-xs text-gray-500 font-body">
