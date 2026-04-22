@@ -10,6 +10,7 @@ import Search from './pages/Search';
 import Success from './pages/Success';
 import OrderTracking from './pages/OrderTracking';
 import Profile from './pages/Profile';
+import Promotions from './pages/Promotions';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="success" element={<Success />} />
           <Route path="tracking" element={<OrderTracking />} />
           <Route path="profile" element={<Profile />} />
+          <Route path="promotions" element={<Promotions />} />
         </Route>
       </Routes>
     </BrowserRouter>

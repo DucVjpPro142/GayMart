@@ -41,7 +41,7 @@ export default function Layout() {
           <nav className="hidden md:flex gap-8 text-[#1a3a4d] font-medium">
             <Link to="/" className="hover:text-[#316e91] transition-colors">Trang chủ</Link>
             <Link to="/category" className="hover:text-[#316e91] transition-colors">Danh mục</Link>
-            <a href="#" className="hover:text-[#316e91] transition-colors">Khuyến mãi</a>
+            <Link to="/promotions" className="hover:text-[#316e91] transition-colors">Khuyến mãi</Link>
             <a href="#" className="hover:text-[#316e91] transition-colors">Liên hệ</a>
           </nav>
 
