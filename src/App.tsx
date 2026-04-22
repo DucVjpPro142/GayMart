@@ -11,6 +11,7 @@ import Success from './pages/Success';
 import OrderTracking from './pages/OrderTracking';
 import Profile from './pages/Profile';
 import Promotions from './pages/Promotions';
+import Admin from './pages/Admin';
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
           <Route path="profile" element={<Profile />} />
           <Route path="promotions" element={<Promotions />} />
         </Route>
+
+        {/* Admin Dashboard */}
+        <Route path="/admin" element={<Admin />} />
       </Routes>
     </BrowserRouter>
   );
